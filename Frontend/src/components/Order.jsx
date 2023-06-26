@@ -97,9 +97,7 @@ const Order = () => {
   }
 
   let handleVertualCard = async () => {
-    {
-      /* class: 62 */
-    }
+    
     let { data } = await axios.post("/api/users/vertualcardPayment", {
       owner: userInfo._id,
       price: order.totalPrice,

@@ -267,7 +267,6 @@ const Placeorder = () => {
         </Col>
       </Row>
 
-      {/*Shipping */}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Shipping Address</Modal.Title>
@@ -341,7 +340,6 @@ const Placeorder = () => {
         </Modal.Footer>
       </Modal>
 
-      {/* Payment */}
       <Modal show={pshow} onHide={handlePClose} animation={false}>
         <Modal.Header closeButton>
           <Modal.Title>Payment Method</Modal.Title>

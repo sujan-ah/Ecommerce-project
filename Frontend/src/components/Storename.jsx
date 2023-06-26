@@ -9,10 +9,9 @@ const Storename = () => {
   const {state3} = useContext(Store)
   const {userInfo} = state3
   
-  /* HW  Edit */
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  /* HW  Edit */
+
 
   const [name,setName] = useState('') 
   const [storename,setStorename] = useState('')
@@ -26,7 +25,6 @@ const Storename = () => {
     })
   }
 
-  /* HW  Edit */
   let handleModalSubmit = async (e) =>{
     e.preventDefault()
     setShow(false)
@@ -43,7 +41,6 @@ const Storename = () => {
     setProid(data[0]._id)
     setShow(true)
   }
-  /* HW  Edit */
 
   useEffect(()=>{
     async function Store(){
